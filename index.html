@@ -1,0 +1,108 @@
+<!--/* HTML code for WRP, Michal Kaliciak,-->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VEX</title>
+    <!-- Vendor CSS -->
+    <link href="vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
+    <link href="vendors/bower_components/sweetalert2/sweetalert2.min.css" rel="stylesheet">
+    <link href="vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="vendors/bower_components/icons/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link href="vendors/jquery_mobile/jquery.mobile.custom.structure.css" rel="stylesheet">
+    <link href="vendors/jquery_mobile/jquery.mobile.custom.theme.css" rel="stylesheet">
+    <link href="vendors/jquery_mobile/jquery.mobile.custom.structure.min.css" rel="stylesheet">
+    <link href="vendors/jquery_mobile/jquery.mobile.custom.theme.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/app.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="clearfix" data-ma-theme="blue">
+        <ul class="h-inner">
+            <li class="hi-trigger ma-trigger" data-ma-action="sidebar-open" data-ma-target="#sidebar">
+                <div class="line-wrap">
+                    <div class="line top"></div>
+                    <div class="line center"></div>
+                    <div class="line bottom"></div>
+                </div>
+            </li>
+            <li class="hi-logo">
+                <a href="home.html" class='openNewPage'>
+                    <img style='width: 40px; margin-top: -8px; margin-left: 230%;' src='./img/vex/logo_circle_white.png'/> 
+                </a>
+            </li>
+            <li class="pull-right">
+                <ul class="hi-menu"> 
+                    <li class="dropdown">
+                      <a href='tel:"0048713067890"'> <i class="him-icon zmdi zmdi-phone"></i><span class='him-icon'>&nbsp;&nbsp;Call us</span> </a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  </header>
+
+  <section id="main">
+    <aside id="sidebar" class="sidebar c-overflow">
+        <ul class="main-menu">
+            <li class="active">
+                <a href="home.html" class='openNewPage'><i class="zmdi zmdi-home"></i> Home</a>
+            </li>
+            <li class="">
+                <a href="our_history.html" class='openNewPage'><i class="zmdi zmdi-balance"></i> History</a>
+            </li>
+            <li class="">
+                <a href="publications.html" class='openNewPage'><i class="zmdi zmdi-library"></i> Publication</a>
+            </li>
+            <li class="">
+                <a href="our_clients.html" class='openNewPage'><i class="zmdi zmdi-slideshare"></i>Our clients</a>
+            </li>
+            <li class="">
+                <a href="contact_us.html" class='openNewPage'><i class="zmdi zmdi-email"></i> Contact us</a>
+            </li>
+        </ul> 
+    </aside>
+
+    <!-- Insert form on the main page -->
+    <section id="content">
+        <div class="container" id="contentMain">
+        </div>
+    </section>
+
+    <footer id="footer">
+        Copyright &copy; 2017 Vex
+        <ul class="f-menu">
+            <li><a href="home.html" class='openNewPage'>Home</a></li>
+            <li><a href="our_history.html" class='openNewPage'>Our History</a></li>
+            <li><a href="publications.html" class='openNewPage'>Publications</a></li>
+            <li><a href="our_clients.html" class='openNewPage'>Our clients</a></li>
+            <li><a href="contact_us.html" class='openNewPage'>Contact us</a></li>
+        </ul>
+    </footer>
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="preloader pls-blue">
+            <svg class="pl-circular" viewBox="25 25 50 50">
+                <circle class="plc-path" cx="50" cy="50" r="20" />
+            </svg>
+            <p>Please wait...</p>
+        </div>
+    </div>
+
+<!-- Javascript Libraries -->
+<script src="vendors/bower_components/jquery/jquery.min.js"></script>
+<script src="vendors/bower_components/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendors/bower_components/autosize/autosize.min.js"></script>
+<script src="vendors/bower_components/waves/waves.js"></script>
+<script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+<script src="vendors/bower_components/sweetalert2/sweetalert2.min.js"></script>
+<script src="vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/app.min.js"></script>
+<script src="js/homepage.js"></script>
+</body>
+
+</html>
